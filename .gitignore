@@ -7,6 +7,16 @@ bundles/io/org.openhab.io.multimedia.tts.marytts/lib/
 .metadata/
 */plugin.xml_gen
 
+targetplatform/openHAB Runtime - local.launch
+
 distribution/openhabhome/logs/*.log
 distribution/openhabhome/*.zip
 distribution/openhabhome/etc/rrd4j/*.rrd
+
+distribution/openhabhome/configurations/rules/demo.rules
+distribution/openhabhome/start_debug.bat
+distribution/openhabhome/webapps/static/version
+distribution/openhabhome/etc/db4o/store.db4o
+distribution/openhabhome/logs/openhab.log.backup
+distribution/openhabhome/webapps/static/uuid
+distribution/openhabhome/start_debug.bat

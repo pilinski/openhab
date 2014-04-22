@@ -1,0 +1,17 @@
+Group Users
+Group Zones
+
+/*
+String User1              "User 1  [%s]" 		   (Users) { paradox=">homealarm:User1" }
+Number User2              "User 2  [%d]" 		   (Users) { paradox=">homealarm:User2" }
+String Zone1		      "Zone 1  [%s]" <alarm>   (Zones) { paradox="<homealarm:Zone1:1111" }
+Number Zone2		      "Zone 2  [%d]" <alarm>   (Zones) { paradox="<homealarm:Zone2:2222" }
+Number Zone3		      "Zone 3  [%d]" <alarm>   (Zones) { paradox="homealarm:Zone3" }
+String Zone10		      "Zone 10 [%s]" <alarm>   (Zones) { paradox="homealarm:Zone10:8888" }
+*/
+
+
+Switch Zone1		      "Zone 1" <alarm>   (Zones) { paradox="<homealarm:Zone1:1111" }
+Switch Zone2		      "Zone 2" <alarm>   (Zones) { paradox="<homealarm:Zone2:2222" }
+Switch Zone3		      "Zone 3" <alarm>   (Zones) { paradox="homealarm:Zone3" }
+String Zone10		      "Zone 10" <alarm>   (Zones) { paradox="homealarm:Zone10:8888" }

@@ -23,7 +23,8 @@ rule "Crontest"
 	when 
 		Time cron "0/15 * * * * ?"
 	then
-		say(counter)
+		println("openHAB is running " + counter + " minutes")
+/*		say(counter) */
 		counter = counter + 1
 end	
 

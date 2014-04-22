@@ -1,0 +1,17 @@
+sitemap paradox label="Paradox Alarm Demo"
+{
+    Frame label="Users" {
+        Text     item=User1      
+        Text     item=User2
+    }
+    Frame label="Zones" {
+        Text  item=Zone1
+        Text  item=Zone2
+        Text  item=Zone10
+        Text  item=Zone3
+    }
+    Frame label="Info" {
+        Group item=Users
+        Group item=Zones
+    }
+}
